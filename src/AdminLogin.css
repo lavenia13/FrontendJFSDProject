@@ -1,0 +1,66 @@
+/* src/AdminLogin.css */
+
+.admin-login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(249, 249, 249, 0.9); /* Slight transparency for the background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.admin-login h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.admin-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-login label {
+    margin-bottom: 10px;
+    font-size: 14px; /* Ensures label has proper spacing */
+    font-weight: bold;
+    text-align: left;
+}
+
+.admin-login input {
+    padding: 12px; /* Increase padding for better size */
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Keep border radius */
+    font-size: 16px; /* Adjust font size */
+    outline: none; /* Remove default focus outline */
+    transition: all 0.3s ease; /* Smooth transition for focus */
+    width: 100%;
+}
+
+.admin-login input:focus {
+    border-color: #4d90fe; /* Change border color on focus */
+    box-shadow: 0 0 8px rgba(77, 144, 254, 0.5); /* Focus glow effect */
+}
+
+.admin-login button {
+    padding: 12px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.admin-login button:hover {
+    background-color: #555;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}

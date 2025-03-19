@@ -1,0 +1,80 @@
+/* ArtisanProfile.css */
+.artisan-profile {
+    background-color: #f7f7f7;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artisan-profile h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .artisan-profile .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .artisan-profile label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .artisan-profile input[type="text"],
+  .artisan-profile input[type="email"],
+  .artisan-profile input[type="tel"],
+  .artisan-profile textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .artisan-profile textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .artisan-profile .form-group div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .artisan-profile .form-group input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .artisan-profile .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .artisan-profile .profile-picture img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .artisan-profile button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .artisan-profile button:hover {
+    background-color: #0056b3;
+  }
+  

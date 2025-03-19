@@ -1,0 +1,26 @@
+/* Styling for Buyer Home Page */
+.buyer-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f9f7f6, #e6e4e1);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .buyer-home h1 {
+    font-size: 2.5rem;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .buyer-home p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    max-width: 600px;
+  }
+  

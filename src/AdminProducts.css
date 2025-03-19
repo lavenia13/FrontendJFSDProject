@@ -1,0 +1,24 @@
+.admin-products {
+    padding: 20px;
+  }
+  
+  .admin-products h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-products table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-products th,
+  .admin-products td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .admin-products th {
+    background-color: #f4f4f4;
+  }
+  

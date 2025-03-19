@@ -1,0 +1,36 @@
+.checkout {
+    padding: 20px;
+  }
+  
+  .checkout form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout input,
+  .checkout select,
+  .checkout textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .checkout button {
+    background-color: #2196F3;
+    padding: 10px;
+    border: none;
+    color: white;
+  }
+  
+  .checkout button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .order-summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,127 @@
+/* Artisan Homepage Styles */
+.artisan-homepage {
+  display: flex;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #4CAF50;
+  padding: 30px 20px;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+/* ArtisanHomePage.css */
+.artisan-home-page {
+  background-image: url('https://cdn.shopify.com/s/files/1/0155/8131/files/handloom_480x480.jpg?v=1671612415');
+  height: 80vh;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  font-size: 1.2em;
+  padding: 10px 0;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #45a049;
+}
+
+.sidebar .active {
+  background-color: #45a049;
+  font-weight: bold;
+}
+
+/* Content Styles */
+.content {
+  margin-left: 270px;
+  padding: 30px;
+  width: 100%;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #4CAF50;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Section Styles */
+section {
+  margin-top: 40px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+li:hover {
+  background-color: #e7f7e3;
+  transform: translateY(-3px);
+}
+
+li div {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #333;
+}
+
+li span {
+  font-size: 1.1em;
+  color: #555;
+  text-transform: capitalize;
+}
+

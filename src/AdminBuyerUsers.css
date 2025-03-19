@@ -1,0 +1,24 @@
+.admin-buyer-users {
+    padding: 20px;
+  }
+  
+  .admin-buyer-users h2 {
+    margin-bottom: 20px;
+  }
+  
+  .admin-buyer-users table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-buyer-users th,
+  .admin-buyer-users td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .admin-buyer-users th {
+    background-color: #f4f4f4;
+  }
+  

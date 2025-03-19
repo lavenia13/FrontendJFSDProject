@@ -1,0 +1,44 @@
+.admin-orders {
+    margin: 20px;
+  }
+  
+  .admin-orders h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-orders table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .admin-orders table th,
+  .admin-orders table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .admin-orders table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .admin-orders p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .admin-orders tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .admin-orders td {
+    font-size: 16px;
+  }
+  
+  .admin-orders th {
+    font-size: 18px;
+  }
+  

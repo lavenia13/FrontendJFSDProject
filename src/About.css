@@ -1,0 +1,55 @@
+/* src/About.css */
+.about-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the start */
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.about-title {
+  font-size: 2.5em; /* Larger font size for the title */
+  margin-bottom: 10px;
+  color: #333; /* Dark color for contrast */
+}
+
+.about-text p {
+  font-size: 1.2em; /* Larger font size for paragraph */
+  line-height: 1.6; /* Better line spacing */
+  color: #555; /* Subtle text color */
+}
+
+.about-quote {
+  font-style: italic;
+  text-align: left;
+  margin-top: 30px; /* Added margin for spacing */
+  color: #555;
+  font-size: 1.5em; /* Decreased font size for the quote */
+  padding: 10px;
+  border-left: 4px solid #eee; /* Add a left border for emphasis */
+  background-color: #f9f9f9; /* Same background as about text for a cohesive look */
+  border-radius: 5px; /* Slight rounding for the quote box */
+}
+
+.about-image {
+  flex: 1; /* Allow the image section to take up the rest of the space */
+}
+
+.about-image img {
+  max-width: 100%;
+  height: 500px; /* Increased height for the image */
+  object-fit: cover; /* Crop image to fit the container */
+  border-radius: 10px;
+}

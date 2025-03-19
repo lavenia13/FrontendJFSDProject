@@ -1,0 +1,38 @@
+.artisan-navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px; /* Add some padding */
+    display: flex;
+    justify-content: center; /* Center align the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .artisan-navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display links horizontally */
+  }
+  
+  .artisan-navbar ul li {
+    margin: 0 15px; /* Space between links */
+  }
+  
+  .artisan-navbar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    padding: 8px 15px; /* Add some padding */
+    border-radius: 5px; /* Slightly rounded edges */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .artisan-navbar ul li a:hover {
+    background-color: #2E7D32; /* Darker green on hover */
+  }
+  
+  .artisan-navbar ul li a.active {
+    background-color: #66BB6A; /* Highlight active link */
+    color: #fff; /* Ensure text remains white */
+  }
+  

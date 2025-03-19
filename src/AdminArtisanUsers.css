@@ -1,0 +1,23 @@
+.admin-artisan-users {
+  padding: 20px;
+}
+
+.admin-artisan-users h2 {
+  margin-bottom: 20px;
+}
+
+.admin-artisan-users table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-artisan-users th,
+.admin-artisan-users td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-artisan-users th {
+  background-color: #f4f4f4;
+}

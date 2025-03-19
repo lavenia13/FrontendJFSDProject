@@ -1,0 +1,60 @@
+/* Wishlist.css */
+.wishlist {
+    padding: 20px;
+  }
+  
+  .wishlist-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wishlist-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .wishlist-summary {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .checkout-form {
+    margin-top: 20px;
+  }
+  
+  .checkout-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form input,
+  .checkout-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .checkout-form button {
+    background-color: #2196F3;
+  }
+  
+  .checkout-form button:hover {
+    background-color: #0b7dda;
+  }
+  

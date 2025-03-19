@@ -1,0 +1,38 @@
+/* AdminNavbar.css */
+.admin-navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .admin-navbar ul li {
+    display: inline-block;
+  }
+  
+  .admin-navbar ul li a {
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .admin-navbar ul li a:hover {
+    background-color: #555; /* Slightly lighter background for hover */
+    color: #f0f0f0; /* Slightly brighter text on hover */
+  }
+  
+  .admin-navbar ul li a.active {
+    background-color: #007BFF; /* Highlight active link */
+    color: white;
+  }
+  
