@@ -1,4 +1,4 @@
-# Global Handloom Fashion Marketplace - Frontend
+#  Handloom Fashion Marketplace - Frontend
 
 ## Overview
 The **Global Handloom Fashion Marketplace** is a web-based platform designed to promote and sell handloom fashion products globally. The frontend, built with **React**, provides a seamless, interactive, and user-friendly experience for artisans, buyers, marketing specialists, and administrators.
